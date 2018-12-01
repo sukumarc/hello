@@ -9,7 +9,7 @@ public class Hello {
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String hello() {
-		System.out.println("helllo");
+		System.out.println("Sukumar");
 		return "index";
 	}
 
